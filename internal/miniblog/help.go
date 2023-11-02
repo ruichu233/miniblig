@@ -10,8 +10,6 @@ import (
 	"github.com/spf13/viper"
 )
 
-var cfgFile string
-
 const (
 	// recommendedHomeDir 指定了 miniblog 服务的默认配置目录
 	recommendedHomeDir = ".miniblog"
