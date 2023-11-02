@@ -1,3 +1,8 @@
+// Copyright 2023 Ruichu Zhang <ruichu233@outlook.com>. All rights reserved.
+// Use of this source code is governed by a MIT style
+// license that can be found in the LICENSE file.
+// The original repo for this file is https://github.com/ruichu233/miniblog.
+
 package miniblog
 
 import (
@@ -9,8 +14,6 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )
-
-var cfgFile string
 
 const (
 	// recommendedHomeDir 指定了 miniblog 服务的默认配置目录
